@@ -38,13 +38,17 @@ Se [Feasability] (feasability.md)
         <tr>
             <td><strong>Fält</strong></td>
             <td><strong>Förklaring</strong></td>
+            <td><strong>Sökval</strong></td>
         </tr>
         <tr>
             <td>
                 <code>accessId</code>
             </td>
             <td>
-                Ett, per kommunikationsoperatör, unikt ID på en access.<br>Com Hem förväntar sig att all kommunikation om en avlämningspunkt sker med samma AccessId. Får enbart bestå av tecknen a-z, A-Z, 0-9, '-' och '.'. <em>text, obligatoriskt, max 32 tecken, [a-zA-Z0-9-.]+</em>
+                Ett, per kommunikationsoperatör, unikt ID på en access.<br>Vanligtvis förväntas all kommunikation om en avlämningspunkt ske med samma AccessId. Får enbart bestå av tecknen a-z, A-Z, 0-9, '-' och '.'. <em>text, obligatoriskt, max 32 tecken, [a-zA-Z0-9-.]+</em>
+            </td>
+            <td>
+            	Sökval: <em>Fritextsökning via * i början och slut. En sökning på aab123 matchar enbart aab123, *b12* matchar aab123 och bbb127</em>
             </td>
         </tr>
         <tr>
