@@ -42,7 +42,9 @@ Content-Type: application/json
 		},
 		{
 			"description": "e2",
-			"link" : "DOWN"
+			"link" : "DOWN",
+			"mbps" : 0,
+			"clients" : []
 		}
 	]
 }
