@@ -47,3 +47,39 @@ Content-Type: application/json
 	]
 }
 ```
+
+
+## Fältbeskrivningar
+
+* `null` eller `""` är inte ett giltiga värden för något fält.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fält</strong></td>
+            <td><strong>Förklaring</strong></td>
+        </tr>
+		<tr>
+            <td>
+                <code>cpe</code>
+            </td>
+            <td>
+				Anger status på cpe.<br>
+				Giltiga värden är "UP" och "DOWN".
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <code>since</code>
+            </td>
+            <td>
+				Anger tidpunkt då cpen gick up och sedan när den haft länk
+				Formatet är "YYYY-MM-DDThh:mm:ssZ" enligt ISO-8601.
+				Avslutande "Z" innebär att tiden alltid är i UTC.
+            </td>
+        </tr>
+
+
+
+     </tbody>
+</table>
