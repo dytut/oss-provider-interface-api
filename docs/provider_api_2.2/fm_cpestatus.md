@@ -73,13 +73,18 @@ Content-Type: application/json
                 <code>since</code>
             </td>
             <td>
-				Anger tidpunkt då cpen gick up och sedan när den haft länk
+				Anger tidpunkt då CPE:n gick up och sedan när den haft länk
 				Formatet är "YYYY-MM-DDThh:mm:ssZ" enligt ISO-8601.
 				Avslutande "Z" innebär att tiden alltid är i UTC.
             </td>
         </tr>
-
-
-
+        <tr>
+        	<td>
+                <code>ports</code>
+            </td>
+            <td>
+            	Lista på det portar som finns på CPE:n
+            </td>
+        </tr>
      </tbody>
 </table>
