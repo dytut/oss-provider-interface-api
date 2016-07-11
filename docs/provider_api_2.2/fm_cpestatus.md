@@ -83,8 +83,66 @@ Content-Type: application/json
                 <code>ports</code>
             </td>
             <td>
-            	Lista på det portar som finns på CPE:n
+            	Lista på de portar som finns på CPE:n
             </td>
         </tr>
+        <tr>
+      		<td>
+                <code>ports/description</code>
+            </td>
+            <td>
+            	CPE:ns beskrivining av porten. Kan vara nummer, eller beskrivning (fa1, e2, port1). Textfält.
+            </td>
+        </tr>
+        <tr>
+      		<td>
+                <code>ports/link</code>
+            </td>
+            <td>
+            	Anger status på länken.
+				Giltiga värden är "UP" och "DOWN".
+            </td>
+        </tr>
+        <tr>
+      		<td>
+                <code>ports/mbps</code>
+            </td>
+            <td>
+        		Anger länkens faktiskta länkhastighet.
+				Enheten är mbps, giltiga värden är: 10, 100, 1000.
+            </td>
+        </tr>
+        <tr>
+      		<td>
+                <code>ports/clients</code>
+            </td>
+            <td>
+        		Lista på anslutna enheter till cpe-porten
+            </td>
+        </tr>
+        <tr>
+      		<td>
+                <code>ports/clients/mac</code>
+            </td>
+            <td>
+	        	MAC-adress på enheten.
+				MAC-adressen representeras genom 6 par av hexadecimala siffror konkatenerade med kolon ':'. Den skall utelstutande vara i uppercase.
+				MAC-adressen är alltid exakt 17 tecken lång.
+				Exempel: "DE:AD:BE:EF:00:01".
+            </td>
+        </tr>
+                <tr>
+      		<td>
+                <code>ports/clients/ip</code>
+            </td>
+            <td>
+	        	Tilldelad IPv4-adress på enheten.
+				IP-adress representeras som fyra decimala tal mellan 0 och 255 konkatenerade med punkter'.'.
+				Noden skall enbart finnas när enheten har en ipv4-adress.
+				Exempel: "10.101.1.181".
+            </td>
+        </tr>
+        
+        
      </tbody>
 </table>
