@@ -27,7 +27,7 @@ Content-Type: application/json
 ```
 
 Response:
-Se [Feasability] (feasability.md)
+Se [Feasibility] (feasibility.md)
 
 ## Fältbeskrivningar
 * `null` är inte ett giltigt värde för något fält.
