@@ -27,7 +27,7 @@ Content-Type: application/json
 ```
 
 Response:
-Se [Feasibility] (feasibility.md)
+Se [Feasibility] (feasibility.md) - Dock utan krav på If-Modified-Since.
 
 ## Fältbeskrivningar
 * `null` är inte ett giltigt värde för något fält.
