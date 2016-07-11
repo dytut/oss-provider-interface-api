@@ -21,7 +21,8 @@ Innehåller operationer med följande syften:
 7. [FM Link Status API](fm_linkstatus.md)
 8. [Option82](option82.md)
 9. [Trouble Tickets](tt.md)
-10. [Övergripande](misc.md)
+10. [Search API] (search.md)
+11. [Övergripande](misc.md)
 
 ## Terminologi
 
